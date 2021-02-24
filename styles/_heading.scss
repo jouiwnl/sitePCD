@@ -1,0 +1,36 @@
+.heading {
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .text {
+    font-size: 60px;
+    font-weight: 600;
+    color: $black;
+  }
+  .wrapper {
+    position: relative;
+
+    .offset {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-50%);
+
+      span {
+        color: $violet;
+      }
+
+    }
+    .text {
+      white-space: nowrap;
+      color: $black;
+
+      transition-duration: 1s;
+    }
+  }
+}
+

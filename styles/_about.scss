@@ -1,0 +1,102 @@
+.animate--title {
+    padding-top: 150px;
+    font-weight: 900;
+    font-size: 90px;
+    color: $violet;
+  }
+  
+  .animate--title .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+.page--about {
+  height: 100vh;
+}
+
+.page--content {
+  height: 91vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.page--vertical {
+  height: inherit;
+  background: linear-gradient(to left, black 60% , transparent 98%);
+  
+}
+
+.page--horizontal--about {
+  height: inherit;
+  background: linear-gradient(to top, black 10% , transparent 98%);
+  
+}
+
+.about--description {
+  width: 50%;
+  height: 100%;  
+}
+
+.description {
+  padding-top: 70px;
+  font-size: 25px;
+  width: 80%;
+  word-wrap: break-word;
+  color: $white;
+}
+
+// segunda paginas
+
+.page--about--2 {
+  height: 100vh;
+}
+
+.page--vertical--2 {
+  height: inherit;
+  background: linear-gradient(to right, black 40% , transparent 98%);
+}
+
+.page--horizontal--2 {
+  height: inherit;
+  background: linear-gradient(to bottom, black 1% , transparent 98%);
+}
+
+.page--content--2 {
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.about--description--2 {
+  width: 40%;
+  height: 100%;  
+}
+
+
+.animate--title--page--2 {
+  padding-top: 150px;
+  font-weight: 900;
+  font-size: 90px;
+  color: $white;
+}
+
+.animate--title--page--2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.animate--description--2 {
+  color:$violet;
+  padding-top: 15%;
+  font-size: 30px;
+}
+
+
+
